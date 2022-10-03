@@ -23,4 +23,4 @@ paths:
                   id:
                     type: string
                     format: uuid
-                    example: d5b640e5-d88c-4c17-9bf0-93597b7a1d25
+                    example: d5b640e5-d88c-4c17-9bf1-93597b7a1d25
