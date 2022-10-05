@@ -1,1 +1,26 @@
-
+openapi: 3.0.3
+info:
+  title: another-example-spec
+  description: The API that powers Optic
+  version: 0.1.0
+paths:
+  /filler_route:
+    post:
+      summary: Create a new thing
+      description: Create a new thing
+      operationId: createThing
+      tags:
+        - Thing
+      responses:
+        "201":
+          description: Created thing successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                description: thing resource object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                    example: d5b640e5-d88c-4c17-9bf0-93597b7a1ce2
