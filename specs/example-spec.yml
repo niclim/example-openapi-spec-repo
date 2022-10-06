@@ -7,7 +7,7 @@ paths:
   /filler_route:
     post:
       summary: Create a new thwing
-      description: Create a new thing
+      description: Create aa new thing
       operationId: createThing
       tags:
         - Thing
