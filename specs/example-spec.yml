@@ -7,13 +7,13 @@ paths:
   /filler_route:
     post:
       summary: Create a new thwing
-      description: Create a new thing
+      description: Create aa new thing
       operationId: createThing
       tags:
         - Thing
       responses:
         "201":
-          description: Created thing successfully
+          description: Created thing successfull
           content:
             application/json:
               schema:
