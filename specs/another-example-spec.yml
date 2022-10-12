@@ -8,7 +8,7 @@ paths:
     post:
       summary: Create a new thinga
       description: Create a new thing
-      operationId: createThinga
+      operationId: createThingaa
       tags:
         - Thing
       responses:
