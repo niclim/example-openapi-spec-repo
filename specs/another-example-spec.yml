@@ -18,7 +18,7 @@ paths:
             application/json:
               schema:
                 type: object
-                description: thing resource object
+                description: thiang resource object
                 properties:
                   id:
                     type: string
