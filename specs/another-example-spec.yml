@@ -6,21 +6,21 @@ info:
 paths:
   /filler_route:
     post:
-      summary: Create a new thing
-      description: Create a new thing
-      operationId: createThing
+      summary: Create a naew thingaaaaaa
+      description: Create a new thinga
+      operationId: cresdfateThingaaaa
       tags:
         - Thing
       responses:
         "201":
-          description: Created thing successfully
+          description: Creatsed thing succeszsfullya
           content:
             application/json:
               schema:
                 type: object
-                description: thing resource object
+                description: thiang resource object
                 properties:
                   id:
                     type: string
                     format: uuid
-                    example: d5b640e5-d88c-4c17-9bf0-93597b7a1ce2
+                    example: d5b640e5-d88ca-4c17-9bf0-93597b7a1ce2a
