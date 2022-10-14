@@ -6,7 +6,7 @@ info:
 paths:
   /filler_route:
     post:
-      summary: Create a naew thingaaaa
+      summary: Create a naew thingaaaaa
       description: Create a new thinga
       operationId: cresdfateThingaaaa
       tags:
