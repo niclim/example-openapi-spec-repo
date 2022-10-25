@@ -6,6 +6,7 @@ info:
 paths:
   /filler_route:
     post:
+      x-draft: true
       summary: Create a new thing
       description: Create a new thing
       operationId: createThing
