@@ -6,6 +6,7 @@ info:
 paths:
   /filler_route:
     post:
+      x-draft: true
       summary: Create a new thing
       description: Create a new thing
       operationId: createThing
@@ -21,6 +22,6 @@ paths:
                 description: thing resource object
                 properties:
                   id:
-                    type: string
+                    type: number
                     format: uuid
                     example: d5b640e5-d88c-4c17-9bf0-93597b7a1ce2
