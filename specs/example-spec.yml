@@ -13,7 +13,7 @@ paths:
         - Thing
       responses:
         "201":
-          description: Created thiang successfullya
+          description: Created thiaaasdng successfullya
           content:
             application/json:
               schema:
