@@ -6,7 +6,7 @@ info:
 paths:
   /filler_route:
     post:
-      summary: Create a new thwinga
+      summary: Create a newa thwinga
       description: Create a new thinga
       operationId: createThing
       tags:
@@ -23,4 +23,4 @@ paths:
                   id:
                     type: string
                     format: uuid
-                    example: d5b640e5-d88c-4c17-9bf0-93597b7a1ce2
+                    example: d5b60e5-d88c-4c17-9bf0-93597b7a1ce2
